@@ -20,6 +20,6 @@ pip install -r requirements.txt
 
 The model can autonomously choose between yolov8n.pt or YOLO-SAG.pt.
 
-#### Reference
+### Reference
 
 * https://github.com/ultralytics/ultralytics
