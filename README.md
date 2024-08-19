@@ -17,6 +17,7 @@ pip install -r requirements.txt
 * Run `yolo val model = yolov8n.pt/YOLO-SAG.pt data = $.yaml` for valing
 
 `$` represents the name of the yaml file
+
 The model can autonomously choose between yolov8n.pt or YOLO-SAG.pt.
 
 #### Reference
