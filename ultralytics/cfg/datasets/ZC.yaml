@@ -1,0 +1,29 @@
+# YOLOv8 🚀 by Ultralytics, GPL-3.0 license
+#  ZC dataset by Zsk and Cll
+# Example usage: python train.py --data ZC.yaml
+# parent
+# ├── yolov8
+# └── datasets
+#     └── ZC
+
+
+
+path: /home/cll/CS_Dataset
+train: # train images (relative to 'path')  
+  - images/train
+
+val: # val images (relative to 'path')  
+  - images/val
+
+# Classes
+names:
+  0: redpanda
+  1: monkey
+  2: sambar
+  3: wildboar
+  4: tiger
+  5: bear
+  6: wolf
+  7: takin
+  8: cloudedleopard
+  9: elephant
